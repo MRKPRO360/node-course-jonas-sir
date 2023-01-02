@@ -68,6 +68,7 @@ exports.protect = catchAsync(async (req, res, next) => {
       new AppError('You are not logged in! Please log in to get access.', 401)
     );
   }
+
   // 2) verification token
 
   // 3) check if user still exist
